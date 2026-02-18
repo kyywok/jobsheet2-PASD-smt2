@@ -19,7 +19,7 @@ public class mahasiswaMain04 {
 
         System.out.println("===========================");
         mahasiswa04 mhszakky = new mahasiswa04("Aqillah Zakky Ramadana", "254107060021", 3.0, "SIB 1A");
-        mhs2.updateIpk(4.0);
+        mhs2.updateIpk(4.);
         mhs2.tampilkanInformasi();
     }
 }
