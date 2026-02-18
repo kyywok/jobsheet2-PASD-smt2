@@ -5,10 +5,10 @@ public class mahasiswa04 {
     double ipk;
 
     void tampilkanInformasi() {
-        System.out.println("Nama" + nama);
-        System.out.println("NIM" + nim);
-        System.out.println("Kelas" + kelas);
-        System.out.println("IPK" + ipk);
+        System.out.println("Nama : " + nama);
+        System.out.println("NIM : " + nim);
+        System.out.println("Kelas : " + kelas);
+        System.out.println("IPK : " + ipk);
     }
 
     void ubahKelas(String kelasBaru) {
@@ -33,5 +33,15 @@ public class mahasiswa04 {
         } else {
             return "IPK tidak valid";
         }
+    }
+
+    public mahasiswa04() {
+    }
+
+    public mahasiswa04(String nm, String nim, double ipk, String kls) {
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
     }
 }
